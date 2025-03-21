@@ -13,11 +13,28 @@ form.setAttribute("id", "form");
 
 form.addEventListener("submit", function(e) {
     e.preventDefault();
+
+    if (input.value.trim() === "") return;
     
     const li = document.createElement("li");
-    li.textContent = input.value
+    li.classList.add("task-item");
+    
+    const taskText = document.createElement("span");
+    taskText.textContent = input.value;
 
-    ul.appendChild(li)
+    const button = document.createElement("button");
+    button.textContent = "X";
+    button.classList.add("remove-task-button");
+    
+    
+    button.addEventListener("click", function() {
+        li.remove();
+    })
+
+    li.append(taskText, button);
+    ul.appendChild(li);
+    input.value = "";
+
 })
 
 form.append(input, submitButton)
