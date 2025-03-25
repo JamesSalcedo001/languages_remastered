@@ -1,6 +1,44 @@
 @import "tailwindcss";
 
-/* :root {
-  --background: #ffffff;
-  --foreground: #171717;
-} */
+
+
+
+
+/* 
+Class	  Description
+p-4	    Padding of 1rem (16px)
+px-3	  Horizontal padding of 0.75rem (12px)
+px-4	  Horizontal padding of 1rem (16px)
+py-2	  Vertical padding of 0.5rem (8px)
+py-4	Vertical padding of 1rem (16px)
+mb-1	Margin-bottom of 0.25rem (4px)
+mb-2	Margin-bottom of 0.5rem (8px)
+mb-4	Margin-bottom of 1rem (16px)
+mt-10	Margin-top of 2.5rem (40px)
+w-full	Full width (100%)
+w-64	Width of 16rem (256px)
+w-80	Width of 20rem (320px)
+max-w-md	Max width of medium (28rem, 448px)
+flex	Makes an element a flex container
+flex-col	Arranges children in a column
+items-center	Centers items along the cross-axis (horizontal)
+min-h-screen	Minimum height of full viewport height
+border	Adds a default border
+rounded	Adds small rounded corners
+rounded-md	Adds medium rounded corners
+rounded-lg	Adds large rounded corners
+shadow-md	Adds a medium shadow effect
+bg-white	Sets white background
+bg-blue-500	Sets blue background (default shade)
+bg-blue-600	Sets a darker blue background
+bg-blue-700	Sets an even darker blue background
+text-white	Sets white text color
+text-gray-600	Sets gray text color
+text-xl	Sets extra-large text size
+text-lg	Sets large text size
+font-bold	Makes text bold
+hover:bg-blue-600	Changes background color to blue-600 on hover
+focus:outline-none	Removes the default outline on focus
+focus:ring-2	Adds a 2px ring (outline) on focus
+focus:ring-blue-500	Sets the ring color to blue-500 on focus
+block	Makes an element block-level */
