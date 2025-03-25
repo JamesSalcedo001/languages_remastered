@@ -17,7 +17,7 @@ export default function FilterDropdown({ options = [], onSelect }) {
             onChange={handleChange}
             className="w-64 px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
         >
-            <options value="">Select an option</options>
+            <option value="">Select an option</option>
             {options.map((option, index) => (
                 <option key={index} value={option}>
                     {option}
