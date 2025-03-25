@@ -4,14 +4,17 @@
 
 // import Button from "./components/Button";
 
-import SearchBar from "./components/SearchBar";
+// import SearchBar from "./components/SearchBar";
 
 
 export default function Home() {
-  const handleSearch = (query) => {
-    console.log("Search Query: ", query);
-  }
-  
+
+  // SearchBar handler
+
+  // const handleSearch = (query) => {
+  //   console.log("Search Query: ", query);
+  // }
+
   return (
     <main className="flex flex-col items-center min-h-screen p-4">
       
@@ -20,7 +23,7 @@ export default function Home() {
       {/* <Button label="Click Me!" onClick={() => alert("Button Clicked!")}/> */}
 
       {/* Search Bar Component */}
-      <SearchBar placeholder="Type to search..." onSearch={handleSearch} />
+      {/* <SearchBar placeholder="Type to search..." onSearch={handleSearch} /> */}
 
       {/* Form Validation Demo */}
       {/* <h1 className="text-2xl font-bold mb-4">Home Page</h1>
