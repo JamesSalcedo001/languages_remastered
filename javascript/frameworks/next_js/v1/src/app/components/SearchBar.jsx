@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 export default function SearchBar({ placeholder = "Search ...", onSearch }) {
-    const [query, setQuery] = usestate("");
+    const [query, setQuery] = useState("");
 
     const handleChange = (e) => {
         setQuery(e.target.value);
